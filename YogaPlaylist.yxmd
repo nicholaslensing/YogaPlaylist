@@ -1,0 +1,687 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\NickL\Downloads\YouTube Videos Extractor.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>YouTube Videos Extractor.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="videoTitle" size="254" source="File: C:\Users\NickL\Downloads\YouTube Videos Extractor.csv" type="V_String" />
+            <Field name="thumbnailUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Videos Extractor.csv" type="V_String" />
+            <Field name="videoUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Videos Extractor.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\NickL\Downloads\YouTube Videos Extractor.csv" type="V_String" />
+            <Field name="viewCount" size="254" source="File: C:\Users\NickL\Downloads\YouTube Videos Extractor.csv" type="V_String" />
+            <Field name="postDate" size="254" source="File: C:\Users\NickL\Downloads\YouTube Videos Extractor.csv" type="V_String" />
+            <Field name="query" size="254" source="File: C:\Users\NickL\Downloads\YouTube Videos Extractor.csv" type="V_String" />
+            <Field name="timestamp" size="254" source="File: C:\Users\NickL\Downloads\YouTube Videos Extractor.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="786" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\NickL\Downloads\YouTube Channel Scraper.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>YouTube Channel Scraper.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="channelName" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="subscriberCount" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="description" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="joinedDate" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="viewCount" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="country" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="avatarUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="bannerUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="yogawithadriene.comUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="instagramUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="facebookUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="shopUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="amazonUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="query" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="timestamp" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="blog&amp;TeachingInfoUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="twitterUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="donationUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="stralaYogaUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="taraStilesUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="sarahbethyogaAppUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="websiteUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="donateUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="ekhartyoga.comUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="newsletterUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="ekhartyogaAppForIosUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="pinterestUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="ekhartyogaAppForAndroidUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="googlePlus" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="kinoyoga.comUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="omstarsYogaTvChannelUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="periscopeUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="chakraChallengeUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="newToYoga?Url" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="mailFound" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="faithhunter.comUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="yogaDoseUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="merchUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="patreonUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="seanVigueFitnessAppUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="powerYogaForAthletesBookUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="paypal" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="pilatesForAthletesBookUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="yogatx.orgUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="yogaVidaUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="amazonWishListUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="tumblrUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="shopOurStoreUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="exclusiveFullLengthProgramsUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="morningYogaChallengeUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="myWebsiteUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="joinUsForARetreat!Url" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="onlineClassesUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="www.spiritvoyage.comUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="psychetruthWebsiteUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="bloggerUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="myspaceUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="neverMissAVideoUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+            <Field name="psychetruthStumbleUponUrl" size="254" source="File: C:\Users\NickL\Downloads\YouTube Channel Scraper.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="162" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>REGEX_CountMatches([duration], ":") = 1</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>REGEX_CountMatches([duration], ":") = 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="162" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>REGEX_CountMatches([duration], ":") = 2</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>REGEX_CountMatches([duration], ":") = 2</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="294" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>duration</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>duration</RootName>
+          <Delimeters value=":" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="294" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>duration</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>duration</RootName>
+          <Delimeters value=":" />
+          <NumFields value="3" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="462" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="thumbnailUrl" selected="False" />
+            <SelectField field="timestamp" selected="False" />
+            <SelectField field="duration1" selected="True" rename="Hours" type="Double" size="8" />
+            <SelectField field="duration2" selected="True" rename="Minutes" type="Double" size="8" />
+            <SelectField field="duration3" selected="True" rename="Seconds" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="462" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="thumbnailUrl" selected="False" />
+            <SelectField field="timestamp" selected="False" />
+            <SelectField field="duration1" selected="True" rename="Minutes" type="Double" size="8" />
+            <SelectField field="duration2" selected="True" rename="Seconds" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="558" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="774" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="(60*[Hours])+[Minutes]+([Seconds]/60)" field="Duration_Minutes" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Duration_Minutes = (60*[Hours])+[Minutes]+([Seconds]/60)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings>
+        <Position x="666" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Minutes","Seconds","Hours"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="894" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Duration_Minutes] &gt;= 40 AND
+[Duration_Minutes] &lt;= 65</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Duration_Minutes] &gt;= 40 AND
+[Duration_Minutes] &lt;= 65</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1050" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="query" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="query" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_viewCount" selected="True" input="Left_" type="Double" size="8" />
+                <SelectField field="Right_subscriberCount" selected="True" input="Right_" type="Double" size="8" />
+                <SelectField field="Right_viewCount" selected="True" rename="channelviewCount" input="Right_" />
+                <SelectField field="Right_query" selected="False" rename="Right_query" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="906" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="description" selected="False" />
+            <SelectField field="country" selected="False" />
+            <SelectField field="avatarUrl" selected="False" />
+            <SelectField field="bannerUrl" selected="False" />
+            <SelectField field="yogawithadriene.comUrl" selected="False" />
+            <SelectField field="instagramUrl" selected="False" />
+            <SelectField field="facebookUrl" selected="False" />
+            <SelectField field="shopUrl" selected="False" />
+            <SelectField field="amazonUrl" selected="False" />
+            <SelectField field="timestamp" selected="False" />
+            <SelectField field="blog&amp;TeachingInfoUrl" selected="False" />
+            <SelectField field="twitterUrl" selected="False" />
+            <SelectField field="donationUrl" selected="False" />
+            <SelectField field="stralaYogaUrl" selected="False" />
+            <SelectField field="taraStilesUrl" selected="False" />
+            <SelectField field="sarahbethyogaAppUrl" selected="False" />
+            <SelectField field="websiteUrl" selected="False" />
+            <SelectField field="donateUrl" selected="False" />
+            <SelectField field="ekhartyoga.comUrl" selected="False" />
+            <SelectField field="newsletterUrl" selected="False" />
+            <SelectField field="ekhartyogaAppForIosUrl" selected="False" />
+            <SelectField field="pinterestUrl" selected="False" />
+            <SelectField field="ekhartyogaAppForAndroidUrl" selected="False" />
+            <SelectField field="googlePlus" selected="False" />
+            <SelectField field="kinoyoga.comUrl" selected="False" />
+            <SelectField field="omstarsYogaTvChannelUrl" selected="False" />
+            <SelectField field="periscopeUrl" selected="False" />
+            <SelectField field="chakraChallengeUrl" selected="False" />
+            <SelectField field="newToYoga?Url" selected="False" />
+            <SelectField field="mailFound" selected="False" />
+            <SelectField field="faithhunter.comUrl" selected="False" />
+            <SelectField field="yogaDoseUrl" selected="False" />
+            <SelectField field="merchUrl" selected="False" />
+            <SelectField field="patreonUrl" selected="False" />
+            <SelectField field="seanVigueFitnessAppUrl" selected="False" />
+            <SelectField field="powerYogaForAthletesBookUrl" selected="False" />
+            <SelectField field="paypal" selected="False" />
+            <SelectField field="pilatesForAthletesBookUrl" selected="False" />
+            <SelectField field="yogatx.orgUrl" selected="False" />
+            <SelectField field="yogaVidaUrl" selected="False" />
+            <SelectField field="amazonWishListUrl" selected="False" />
+            <SelectField field="tumblrUrl" selected="False" />
+            <SelectField field="shopOurStoreUrl" selected="False" />
+            <SelectField field="exclusiveFullLengthProgramsUrl" selected="False" />
+            <SelectField field="morningYogaChallengeUrl" selected="False" />
+            <SelectField field="myWebsiteUrl" selected="False" />
+            <SelectField field="joinUsForARetreat!Url" selected="False" />
+            <SelectField field="onlineClassesUrl" selected="False" />
+            <SelectField field="www.spiritvoyage.comUrl" selected="False" />
+            <SelectField field="psychetruthWebsiteUrl" selected="False" />
+            <SelectField field="bloggerUrl" selected="False" />
+            <SelectField field="myspaceUrl" selected="False" />
+            <SelectField field="neverMissAVideoUrl" selected="False" />
+            <SelectField field="psychetruthStumbleUponUrl" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Tile.Tile">
+        <Position x="1254" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Method>UniqueValue</Method>
+          <UniqueValue>
+            <UniqueFields>
+              <Field field="subscriberCount" />
+            </UniqueFields>
+            <DontSort value="True" />
+          </UniqueValue>
+          <GroupFields orderChanged="False">
+            <Field name="Minutes" />
+            <Field name="Hours" />
+          </GroupFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTile" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1446" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Tile_Num</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-07-01 09:36:57</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>1</Operand>
+              <StartDate>2020-07-01 09:36:57</StartDate>
+              <EndDate>2020-07-01 09:36:57</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Tile_Num] = 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1338" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo>
+            <Field field="Hours" order="Ascending" />
+            <Field field="Minutes" order="Ascending" />
+            <Field field="subscriberCount" order="Descending" />
+            <Field field="viewCount" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Hours - Ascending
+Minutes - Ascending
+subscriberCount - Descending
+viewCount - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1146" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Hours" order="Ascending" />
+            <Field field="Minutes" order="Ascending" />
+            <Field field="subscriberCount" order="Descending" />
+            <Field field="viewCount" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Hours - Ascending
+Minutes - Ascending
+subscriberCount - Descending
+viewCount - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1566" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\NickL\Downloads\YogaPlaylist.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>YogaPlaylist.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="False" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output26" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="True" />
+      <Destination ToolID="17" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="17" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Join" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="True" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>YogaPlaylist</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
