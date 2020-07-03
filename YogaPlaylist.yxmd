@@ -790,8 +790,6 @@ viewCount - Descending</DefaultAnnotationText>
             <Field field="subscriberCount" />
             <Field field="joinedDate" />
             <Field field="channelviewCount" />
-            <Field field="Tile_Num" />
-            <Field field="Tile_SequenceNum" />
           </UniqueFields>
         </Configuration>
         <Annotation DisplayMode="0">
